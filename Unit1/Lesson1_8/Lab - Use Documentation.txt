@@ -1,0 +1,20 @@
+Lab – use documentation
+
+1. What are three primary responsibilities of a UIview objects?
+   Shows things on the screen.
+   Handles touch or tap events.
+   Organizes and manages other smaller views.
+
+2. What does documentation call a view that’s embedded in another view?
+   It’s called a subview.
+
+3. What does documentation call the parent view that’s embedded the other view?
+   It’s called superview
+
+4. What is a view’s frame?
+   A view frame is its size and position inside its parent view.
+
+5. How is a view’s bounds different from its frame?
+   The difference between bounds and frame is that the frame defines where the view is located within its parent view, while the bounds describe the view’s own coordinate space within itself
+
+
