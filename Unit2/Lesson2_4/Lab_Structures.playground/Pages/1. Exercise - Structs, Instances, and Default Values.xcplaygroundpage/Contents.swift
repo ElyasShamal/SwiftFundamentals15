@@ -26,7 +26,7 @@ print(somePlace.longitude)
 struct Book {
     var title: String = ""
     var author: String = ""
-    var page: Int = 0
+    var pages: Int = 0
     var price: Double = 0.0
 }
 
@@ -35,6 +35,14 @@ struct Book {
 var favoriteBook = Book()
 
 print(favoriteBook.title)
+
+favoriteBook.title = "Clean Code"
+favoriteBook.author = "Robert C Martin"
+favoriteBook.pages = 463
+favoriteBook.price = 27.99
+
+print("My favorite programming book is \(favoriteBook.title) by \(favoriteBook.author). \nthe book costs \(favoriteBook.price) and it has \(favoriteBook.pages) pages.")
+
 
 
 
